@@ -3,9 +3,8 @@ import { motion, useInView } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { portfolioData } from '../data/portfolio';
-import { Canvas, useFrame } from '@react-three/fiber';
-import { Float, Environment, Html } from '@react-three/drei';
-import * as THREE from 'three';
+import { Canvas } from '@react-three/fiber';
+import { Float, Environment } from '@react-three/drei';
 
 gsap.registerPlugin(ScrollTrigger);
 
